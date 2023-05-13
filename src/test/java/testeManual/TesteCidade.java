@@ -19,8 +19,8 @@ public class TesteCidade {
         EntityManager em = JPAUtil.getEntityManager();
 
         Cidade cidade = new Cidade();
-        cidade.setNome("Sao Paulo");
-        cidade.setEstado("Sao Paulo");
+        cidade.setNome("Itacoatiara");
+        cidade.setEstado("Amazonas");
 
         em.getTransaction().begin();
 
